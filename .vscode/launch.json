@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MTF Energy Tools",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            //"environmentName": "Support20240705",
+            "environmentName": "Sandbox_20240801_Dev",
+            //"startupCompany": "MFT Energy AS", ////*************
+            "startupCompany": "MFT Energy US Power LLC", ////*************
+            //"startupObjectType": "Page",
+            //"startupObjectId": 251, //G/L Journals
+            //"startupObjectId": 254, //Purchase Journals
+            ////"startupObjectId": 8615, //Configuration Package List
+            //"startupObjectId": 31, //Item List
+            //"startupObjectId": 50100, 
+            //"startupObjectId": 50000, //MFT Setup
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "7a7dc48e-9f70-4f4c-941e-bf8aa042f81a",
+            "schemaUpdateMode": "ForceSync"            
+        }
+    ]
+}
